@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "992440575566",
+    "project_id": "mapsjava-63864",
+    "storage_bucket": "mapsjava-63864.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:992440575566:android:473bc70fbe7396053e051f",
+        "android_client_info": {
+          "package_name": "com.gdsc.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "992440575566-l0gpq7eptf6e2v2uae0c5euc48bgstvo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDftFj9TIz4W5oTD699RcwFNj-fg5ntC5w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "992440575566-l0gpq7eptf6e2v2uae0c5euc48bgstvo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

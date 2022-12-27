@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/coffename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="82dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Coffea Name"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/xcord"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X :"
+        android:textSize="20dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/xcord"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="43dp"
+        android:text="Y :"
+        android:textSize="20dp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/ycord"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/savebuttton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="34dp"
+        android:onClick="saveClick"
+        android:text="SAVE"
+        app:layout_constraintEnd_toStartOf="@+id/mapbutton"
+        app:layout_constraintTop_toBottomOf="@+id/ycord" />
+
+    <Button
+        android:id="@+id/mapbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Mapclicks"
+        android:text="MAP"
+        app:layout_constraintBaseline_toBaselineOf="@+id/savebuttton"
+        app:layout_constraintEnd_toEndOf="@+id/ycord" />
+
+    <EditText
+        android:id="@+id/xcord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="51dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="X Coordination"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/coffename" />
+
+    <EditText
+        android:id="@+id/ycord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="43dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Y Coordination"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/xcord" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
